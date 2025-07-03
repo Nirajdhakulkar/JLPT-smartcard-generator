@@ -4,18 +4,18 @@ from gtts import gTTS
 import os
 import pykakasi
 
-st.markdown("""
-<style>
-.stApp {
-    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3YxMTU1LWItMDExLmpwZw.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: #2d3436;  /* Makes text white */
-}
-</style>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <style>
+# .stApp {
+#     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3YxMTU1LWItMDExLmpwZw.jpg");
+#     background-size: cover;
+#     background-repeat: no-repeat;
+#     background-attachment: fixed;
+#     background-position: center;
+#     color: #2d3436;  /* Makes text white */
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 # Setup Romaji converter
 kks = pykakasi.kakasi()
